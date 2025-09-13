@@ -29,14 +29,14 @@ include 'db_connect.php';
     <section class="category-banners-section">
         <div class="container">
             <div class="banners-grid">
-                <a href="produtos.php?categoria=Notebooks" class="category-banner-card">
+                <a href="produtos.php?categoria=Notebooks e Tablets" class="category-banner-card">
                     <img src="assets/img/banner_notebooks.jpg" alt="Notebooks de Alta Performance">
                     <div class="banner-text-overlay">
                         <h2>Notebooks de Alta Performance</h2>
                         <span>Conferir Agora</span>
                     </div>
                 </a>
-                <a href="produtos.php?categoria=Tecnologia" class="category-banner-card">
+                <a href="produtos.php?categoria=Hardware" class="category-banner-card">
                     <img src="assets/img/banner_computadores.jpg" alt="Computadores e Setups">
                     <div class="banner-text-overlay">
                         <h2>PCs e Setups Completos</h2>
@@ -73,8 +73,7 @@ include 'db_connect.php';
                 ?>
             </div>
             <div class="text-center mt-4">
-                <a href="produtos.php?ofertas=1" class="btn btn-secondary">Ver Todas as Ofertas <i class="fas fa-arrow-right ml-2"></i></a>
-            </div>
+<a href="ofertas.php" class="btn btn-secondary-outline">Ver Todas as Ofertas <i class="fas fa-arrow-right ml-2"></i></a>            </div>
         </div>
     </section>
     
